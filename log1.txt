@@ -1,0 +1,76 @@
+    1  exit
+    2  pwd
+    3  mkdir learningBash
+    4  ls
+    5  cd learningBash
+    6  echo hello
+    7  vim textfile.txt
+    8  cat textfile.txt
+    9  vim shelltest.sh
+   10  ls
+   11  pwd
+   12  bash shelltest.sh
+   13  echo $SHELL
+   14  vim shelltest.sh
+   15  ./shelltest.sh
+   16  ls -l
+   17  chmod u
+   18  chmod u+x shelltest.sh
+   19  chmod u
+   20  ls -l
+   21  ./shelltest.sh
+   22  FIRST_NAME=Aditya
+   23  echo Hi $FIRST_NAME
+   24  vim variables.sh
+   25  ./variables.sh
+   26  chmod u+x variables.sh
+   27  ./variables.sh
+   28  vim interactiveshell.shg
+   29  rm intertactiveshell.shg
+   30  rm interactiveshell
+   31  rm interactiveshell.shg
+   32  vim interactiveshell.sh
+   33  chmod u+x interactiveshell.sh
+   34  ./interactiveshell.sh
+   35  vim posargu.sh
+   36  chmod u+x posargu.sh
+   37  ./posargu.sh
+   38  ./posargu.sh Aditya Ratnaker
+   39  ls -l /usr/bin | grep bash  
+   40  ls -l /usr/bin
+   41  ls -l /usr/bin | grep xz
+   42  ls -l /usr/bin | grep z
+   43  echo Hello World! > hello.txt
+   44  cat hello.txt
+   45  echo Good Day to You! > hello.txt
+   46  cat hellotxt
+   47  cat hello.txt
+   48  echo Hello World! > hello.txt
+   49  cat hello.txt
+   50  echo Hello World! >> hello.txt
+   51  cat hello.txt
+   52  echo Good Day to You! >> hello.txt
+   53  cat hello.txt
+   54  wc -w hello.txt
+   55  cat << EOF 
+I am Aditya Ratnaker
+I am currently a BTECH Undeergraduate.
+I sdonv
+sovndmsjv
+vklnvm
+jiosvnk4
+EOF
+
+   56  wc -w <<< "Count the Word Count"
+   57  [ 1 = 1 ]
+   58  echo $?
+   59  [ 1 = 0 ]
+   60  echo $?
+   61  [ 1 -eq 12 ]
+   62  echo $?
+   63  [ 1 -eq 1 ]
+   64  echo $?
+   65  history
+   66  history | log1.txt
+   67  history | cat log1.txt
+   68  history >  log1.txt
